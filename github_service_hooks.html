@@ -20,7 +20,7 @@ td, th {
 	color: green;
 	font-weight: bold;
 }
-.maybe {
+.maybe, .yesbut {
 	color: orange;
 	font-weight: bold;
 }
@@ -32,6 +32,15 @@ td, th {
 	font-weight: bold;
 	text-align: center;
 }
+.name {
+	width: 165px;
+}
+.desc {
+
+}
+.freever {
+	width: 160px;
+}
 //-->
 </style>
 <body>
@@ -41,9 +50,9 @@ td, th {
 <table>
 	<thead>
 		<tr>
-			<th>Name</th>
-			<th>Description</th>
-			<th>Free version available</th>
+			<th class="name">Name</th>
+			<th class="desc">Description</th>
+			<th class="freever">Free version available</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -73,7 +82,7 @@ td, th {
 		<tr>
 			<td><a href="http://aws.amazon.com/sns/">Amazon SNS</a></td>
 			<td>Amazon SNS lets you push messages to mobile devices or distributed services, via API or an easy-to-use management console.</td>
-			<td class="maybe">credit card required</td>
+			<td class="maybe">credit card required ?</td>
 		</tr>
 		<tr>
 			<td><a href="http://apiary.io/">Apiary</a></td>
@@ -102,6 +111,59 @@ td, th {
 		</tr>
 		<tr>
 			<td colspan="3" class="letter"><a name="B"/>B</td>
+		</tr>
+		<tr>
+			<td><a href="http://backlogtool.com/">Backlog</a></td>
+			<td>Online project management software and collaboration tool.</td>
+			<td class="yesbut">Yes, limited to 1 project</td>
+		</tr>
+		<tr>
+			<td><a href="https://quickstart.atlassian.com/download/bamboo/get-started/introducing-bamboo">Introducing&nbsp;Bamboo</a> (<a href="https://confluence.atlassian.com/display/BAMBOO/Bamboo+Documentation+Home">doc</a>)</td>
+			<td>Track JIRA issues from code to customer using Bamboo to run builds, tests, and deployments.</td>
+			<td class="no">30-days trial</td>
+		</tr>
+		<tr>
+			<td><a href="https://basecamp.com/classic">BasecampClassic</a></td>
+			<td>The original web-based project management app: Basecamp Classic is the one that started it all.</td>
+			<td class="maybe">30-days trial + <a class="yes" href="https://signup.37signals.com/basecamp/Free">old free plan</a></td>
+		</tr>
+		<tr>
+			<td><a href="https://basecamp.com/">Basecamp</a></td>
+			<td>Trusted by millions, Basecamp is the leading web-based project management and collaboration tool. To-dos, files, messages, schedules, and milestones.</td>
+			<td class="maybe">60-days trial</td>
+		</tr>
+		<tr>
+			<td><a href="http://www.getblimp.com/">Blimp</a></td>
+			<td>Project management software to keep your team in sync and focused, so you can get back to work.</td>
+			<td class="yesbut">Yes, limited to 1 project</td>
+		</tr>
+		<tr>
+			<td><a href="http://boxcar.io/">Boxcar</a></td>
+			<td>Universal Push Notification Platform for developers, iOS Push Notification app for news addicts.</td>
+			<td class="yes">Yes (ios/mac os)</td>
+		</tr>
+		<tr>
+			<td><a href="http://buddycloud.com/">buddycloud</a></td>
+			<td>build the personal cloud<br/>distributed by design, buddycloud has pioneered a set of tools, open source software and protocols to help you build a completely new kind of social network.</td>
+			<td class="yes">Yes</td>
+		</tr>
+		<tr>
+			<td><a href="http://bugherd.com/">BugHerd</a></td>
+			<td>Easy to use web bug tracking software. Capture client feedback, resolve issues and manage projects effortlessly.</td>
+			<td class="no">14-days trial</td>
+		</tr>
+		<tr>
+			<td><a href="http://bug.ly/">Bugly</a></td>
+			<td>Bugly is a modern, flexible and enjoyable issue tracker with a REST API, excellent SCM integration, top-notch email features and much more.</td>
+			<td class="no">30-days trial</td>
+		</tr>
+		<tr>
+			<td><a href="http://www.bugzilla.org/">Bugzilla</a></td>
+			<td>Bug tracking used by the Mozilla projects. Inherently web-based, written in Perl, and uses MySQL as its database back-end. Open-Source.</td>
+			<td class="yes">Yes</td>
+		</tr>
+		<tr>
+			<td colspan="3" class="letter"><a name="C"/>C</td>
 		</tr>
 		<tr>
 			<td><a href=""></a></td>
